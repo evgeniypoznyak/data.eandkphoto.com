@@ -17,9 +17,8 @@ class UserController extends Controller
             'email'    => ['required', 'email', 'unique:users'],
             'password' => 'required'
         ]);
-        // return $this->returnTokenJson($request);
 
-        //   return response()->json($request, 200);
+         //   return response()->json($request, 200);
 
 
         $user = new User([
