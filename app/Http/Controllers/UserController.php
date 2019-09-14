@@ -30,7 +30,6 @@ class UserController extends Controller
 
         $user->save();
 
-        // return response()->json($request, 200);
         return $this->returnTokenJson($request);
     }
 
