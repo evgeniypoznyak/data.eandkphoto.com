@@ -22,10 +22,6 @@ class SliderController extends Controller
 
         //$pictures = $slider;
 
-        //  return response()->json( $slider, 200);
         return response()->json( $pictures, 200);
-
-
-        //
     }
 }
