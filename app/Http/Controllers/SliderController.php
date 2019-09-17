@@ -20,8 +20,6 @@ class SliderController extends Controller
 
         $pictures = $slider->pictures;
 
-        //$slider = Slider::find($id);
-
         //$pictures = $slider;
 
         //  return response()->json( $slider, 200);
