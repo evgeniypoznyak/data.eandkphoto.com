@@ -17,10 +17,7 @@ class SliderController extends Controller
     public function show(Slider  $slider)
     {
 
-
         $pictures = $slider->pictures;
-
-        //$pictures = $slider;
 
         return response()->json( $pictures, 200);
     }
