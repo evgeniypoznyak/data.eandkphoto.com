@@ -21,7 +21,6 @@ class SliderController extends Controller
         $pictures = $slider->pictures;
 
         //$slider = Slider::find($id);
-        //dump($slider);
 
         //$pictures = $slider;
 
