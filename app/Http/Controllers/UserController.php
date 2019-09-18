@@ -47,7 +47,6 @@ class UserController extends Controller
     public function returnTokenJson(Request $request)
     {
 
-        // grab credentials from the request
         $credentials = $request->only('email', 'password');
 
         try {
