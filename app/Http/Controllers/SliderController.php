@@ -10,7 +10,6 @@ class SliderController extends Controller
 
     /**
      * Display the specified resource.
-     *
      * @param  \App\Slider  $slider
      * @return \Illuminate\Http\Response
      */
